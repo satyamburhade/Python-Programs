@@ -2,6 +2,11 @@
 #This program illustrates the concept of inheritance
 #Python looks up for method in following order: Instance attributes, class attributes and the
 #from the base class
+#Syntax for inheritance
+#class BaseClass:
+#  Body of base class
+#class DerivedClass(BaseClass):
+#  Body of derived class
 
 class Data(object):
     def getData(self):
